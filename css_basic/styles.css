@@ -17,9 +17,12 @@ aside{
  overflow-y: auto;
 
 }
-/* article::-webkit-scrollbar{
+/* article::-webkit-scrollbar
     display: none;
 }
 aside::-webkit-scrollbar{
     display: none;
 } */ 
+ body{
+    background: linear-gradient(to right, blue,white);
+ }
