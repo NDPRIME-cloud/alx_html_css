@@ -1,0 +1,220 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+.background {
+  padding: 0 100px;
+  background-image: url("./images/Object.png");
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  display: block;
+  object-fit: cover;
+
+  height: 100vh;
+
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 20px;
+}
+.header {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+li {
+  padding: 0 20px;
+  font-weight: 600;
+}
+.schooled {
+  padding-top: 0px;
+  color: white;
+  font-size: 120px;
+  text-align: center;
+}
+.textonface {
+  text-align: center;
+}
+.txtwithbutton span {
+  padding: 0 50px;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+}
+.textonface button {
+  margin-top: 30px;
+  background-color: #c271ff;
+  padding: 20px;
+  border: none;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 50px;
+}
+/* .object-color {
+    background: linear-gradient(to top,#071629 ,#343a42);
+  /* background-color: #071629; */
+  /* width: 100%;
+  padding: 50px;
+  
+} */ 
+.ambassador {
+  text-align: center;
+  padding-top: 10px;
+}
+.ambassador h2 {
+  padding-bottom: 70px;
+  color: #fff;
+}
+.ambassador div {
+  display: flex;
+}
+.ambassador img{
+    border-radius: 50%;
+}
+.pros{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 60px;
+    
+}
+.pros-slide{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    margin-bottom: 20px;
+    /* flex-wrap: wrap; */
+}
+.section-2{
+    text-align: center;
+    background-color:#c271ff;
+    width: 100%;
+    padding: 20px;
+    
+    padding: 50px;
+    /* text-align: center; */
+    
+}
+.section-2 img{
+    border-radius: 50%;
+}
+.item{
+    display: flex;
+    
+
+    justify-content: center;
+}
+.internal-item{
+    padding-left: 10px;
+    margin-top: 30px;
+}
+.item-01{
+    padding-left: 10px;
+    justify-items: flex-start;
+}
+.section-3{
+    padding: 30px;
+}
+.main-tutorial{
+    margin: 60px;
+
+}
+.main-tutorial h2{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 32px;
+}
+.tutorial-vidoes{
+    display: flex;
+    justify-content: space-between;
+}
+.Phillip{
+    display: flex;
+    margin: 15px 0;
+
+}
+.Phillip h4{
+    color: #C271FF;
+    margin: 4px 7px  ;
+    margin-left: 20px;
+}
+.rating{
+    color: #C271FF;
+}
+.rating{
+    display: flex;
+    justify-content: space-between;
+}
+.tutorial-texts{
+    color: #6e7073;
+}
+.section-4{
+    color: #fff;
+    padding: 70px;
+    background-color: #071629;
+}
+.section-4 h2{
+    text-align: center;
+}
+.mentorship{
+    display: flex;
+    padding: 80px;
+    justify-content: space-between
+}
+.section-4 button{
+    display: flex;
+    justify-self: center;
+    padding: 20px;
+    background-color: #c271ff;
+    border: none;
+    border-radius: 30px;
+    font-weight:600;
+}
+.smile{
+    padding-bottom: 70px;
+    justify-self: center
+}
+.section-5{
+    padding: 10px 30px 20px;
+}
+.works{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+}
+.section-5 h2{
+    text-align: center;
+    font-size: 60px;
+    font-weight: 500;
+
+}
+.txt-works{
+    margin-top: 30px;
+}
+footer{
+    padding: 90px;
+    background-color: #071629;
+}
+.last{
+  display: flex;
+  justify-content: space-between;
+}
+footer p{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
