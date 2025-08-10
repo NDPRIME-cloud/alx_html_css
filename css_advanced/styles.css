@@ -218,3 +218,85 @@ footer p{
   justify-content: center;
   margin-top: 50px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width :900px){
+  .pros-slide {
+  
+    flex-wrap: wrap
+    
+  }
+  .pros-slide p{
+    display: none;
+
+  }
+  .pros h3{
+    font-size:15px;
+  }
+  .pros-slide img{
+    width: 100px;
+    height:100px ;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+  }
+  .ambassador{
+ padding-bottom: 0px
+  }
+  .pros-slide{
+display: none;
+  }
+  .pros{
+    padding: 0px 10px;
+    margin-bottom: 0px;
+padding-bottom: 0px;
+
+
+   
+  }
+.section-3{
+  padding: 0px;
+  margin: 0px;
+  
+}
+.tutorial-vidoes{
+flex-wrap: wrap;
+margin: 0px;
+}
+.schooled{
+  font-size: 60px;
+}
+.background{
+  padding: 0 ;
+}
+.works{
+  padding: 0px;
+  margin: 0px;
+}
+html{
+  display: block;
+}
+.section-4{
+  padding: 10px;
+  margin: 0px;
+  width: 100%;
+}
+.textonface button{
+  margin-bottom: 50px;
+}
+body{
+  line-height: 1.7;
+}
+}
