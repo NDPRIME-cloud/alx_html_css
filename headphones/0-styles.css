@@ -130,24 +130,24 @@ a {
   padding: 30px 0;
   max-width: 1000px;
   width: 100%;
-  flex-wrap: wrap;
+ flex-wrap: wrap;
   justify-content: space-between;
   margin: 0 auto;
   color: #071629;
 }
-.img1 {
+/* .img1 {
   width: 250px;
   left: 76px;
-}
+} */
 .media-images p {
   font-size: 14px;
   font-weight: 400;
   padding-top: 40px;
   line-height: 26px;
 }
-.img13 p {
+/* .img13 p {
   padding-top: 25px;
-}
+} */
 #our-result {
   background-image: url("./images/background.png");
   background-attachment: scroll;
@@ -183,6 +183,7 @@ a {
   display: flex;
   justify-content: center;
   padding-top: 79px;
+  flex-wrap: wrap;
 }
 .poly div {
   padding: 0 20px;
@@ -255,12 +256,12 @@ footer img {
 }
 
 .hamburger {
-  font-size: 40px;
+  font-size: 30px;
   padding: 10px;
   display: none;
   color: #fff;
   cursor: pointer;
-  padding-top: 20px;
+  padding-top: 0px;
 }
 
 /* 
@@ -270,26 +271,34 @@ footer img {
     }
 } */
 
-@media (max-width: 1024px) {
+@media (max-width: 767px) {
   .hamburger {
     display: block;
     text-align: center;
+    padding-right: 50px;
   }
   nav {
-    margin-bottom: 0px;
+    margin-bottom: 60px;
+    max-width: 200px;
   }
 
   .links {
     display: none; /* Hide links by default */
-    flex-direction: column;
+    flex-direction:column ;
   }
   .links div {
     padding-top: 30px;
     padding-bottom: 30px;
+    width: 100%;
+    max-width: 767px;
+    margin: 0 70px; /* to move my humburger link to the center*/
   }
+  
   .menu {
     display: flex;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
+   
+   
   }
   /* .menu img{
     height: 100px;
@@ -301,7 +310,7 @@ footer img {
   #seen {
     display: flex;
     flex-direction: column;
-    padding: auto;
+    
   }
 
   .links.show {
@@ -312,12 +321,48 @@ footer img {
   .back-body {
     padding-left: 16px;
     padding-right: 16px;
+    height: 869px;
   }
+  .media-images {
+    display: block;
+    justify-content: center;
+    width: 100%;
+    max-width: 767px;
+  }
+  .media-images div{
+    padding: 30px 0;
+  }
+  #our-result{
+    height: 1491px;
+  }
+  .poly{
+    display: block;
+    text-align: center;
+    
+  }
+  .poly div{
+    padding: 20px 0;
+  }
+  
 }
-/* 
-@media (max-width:764px){
-    .unseen.show{
-        display: flex;
-        flex-direction: column;
-    }
-} */
+@media(min-width:768px) and (max-width:1023px){
+
+
+.media-images div {
+  flex: 1 1 calc(50% ); /* 2 per row */
+  padding: 20px 0;
+  margin: auto;
+ 
+}
+
+.poly div{
+  flex: 1 1 calc(50% );
+  padding: 20px 0;
+  margin: auto;
+  text-align: center;
+}
+#our-result{
+  height: 876px;
+}
+
+}
